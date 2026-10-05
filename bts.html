@@ -1,0 +1,327 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTS ARIRANG 💜</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background: #12091f;
+      color: #f8efff;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      padding: 18px;
+      text-align: center;
+      background: rgba(18, 9, 31, 0.95);
+      border-bottom: 1px solid #7d4ab5;
+    }
+
+    nav a {
+      color: #ead7ff;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #c993ff;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+      background:
+        radial-gradient(circle at top, #5d2787, #241036 45%, #12091f 80%);
+    }
+
+    .hero h1 {
+      font-size: clamp(55px, 13vw, 110px);
+      letter-spacing: 8px;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      color: #d9b5ff;
+      letter-spacing: 4px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 25px auto;
+      color: #e8d9ef;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      border: 1px solid #c993ff;
+      border-radius: 30px;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #9b5bd1;
+      transform: translateY(-3px);
+    }
+
+    section {
+      padding: 75px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 38px;
+      margin-bottom: 45px;
+      color: #d9b5ff;
+    }
+
+    .members {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 18px;
+    }
+
+    .member {
+      padding: 30px 15px;
+      text-align: center;
+      background: #211032;
+      border: 1px solid #6f3c99;
+      border-radius: 18px;
+      transition: 0.3s;
+    }
+
+    .member:hover {
+      transform: translateY(-8px);
+      border-color: #c993ff;
+      box-shadow: 0 10px 30px rgba(157, 88, 210, 0.25);
+    }
+
+    .member .symbol {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .member h3 {
+      font-size: 20px;
+    }
+
+    .arirang {
+      text-align: center;
+      background: linear-gradient(135deg, #281238, #170b25);
+      border-radius: 25px;
+      padding: 55px 25px;
+      border: 1px solid #71429a;
+    }
+
+    .arirang p {
+      max-width: 750px;
+      margin: auto;
+      color: #e8d9ef;
+    }
+
+    .albums {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .album {
+      padding: 30px;
+      background: #211032;
+      border-radius: 18px;
+      border-left: 4px solid #a66ad1;
+    }
+
+    .album h3 {
+      color: #d9b5ff;
+      margin-bottom: 8px;
+    }
+
+    .army {
+      text-align: center;
+      padding: 65px 20px;
+      background: #281238;
+    }
+
+    .army h2 {
+      font-size: 42px;
+      color: #d9b5ff;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #bda8c9;
+      border-top: 1px solid #382047;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        margin: 5px;
+        font-size: 13px;
+      }
+
+      .hero h1 {
+        letter-spacing: 4px;
+      }
+
+      section {
+        padding: 55px 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#home">HOME</a>
+    <a href="#members">MEMBERS</a>
+    <a href="#arirang">ARIRANG</a>
+    <a href="#albums">MUSIC</a>
+    <a href="#army">ARMY</a>
+  </nav>
+
+  <header class="hero" id="home">
+    <div>
+      <h1>BTS</h1>
+      <h2>ARIRANG</h2>
+      <p>
+        A fan-made space celebrating BTS, their music,
+        their journey, and the beautiful connection between
+        BTS and ARMY.
+      </p>
+      <a class="button" href="#members">ENTER THE PURPLE WORLD</a>
+    </div>
+  </header>
+
+  <section id="members">
+    <h2 class="title">THE SEVEN ✨</h2>
+
+    <div class="members">
+
+      <div class="member">
+        <div class="symbol">🐨</div>
+        <h3>RM</h3>
+      </div>
+
+      <div class="member">
+        <div class="symbol">🐹</div>
+        <h3>JIN</h3>
+      </div>
+
+      <div class="member">
+        <div class="symbol">🐱</div>
+        <h3>SUGA</h3>
+      </div>
+
+      <div class="member">
+        <div class="symbol">🌞</div>
+        <h3>J-HOPE</h3>
+      </div>
+
+      <div class="member">
+        <div class="symbol">🐥</div>
+        <h3>JIMIN</h3>
+      </div>
+
+      <div class="member">
+        <div class="symbol">🐯</div>
+        <h3>V</h3>
+      </div>
+
+      <div class="member">
+        <div class="symbol">🐰</div>
+        <h3>JUNGKOOK</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="arirang">
+    <div class="arirang">
+      <h2 class="title">ARIRANG</h2>
+
+      <p>
+        ARIRANG is a beloved Korean traditional song and cultural
+        symbol. This section is designed as a fan-made tribute
+        blending Korean-inspired aesthetics with BTS's artistic
+        universe.
+      </p>
+    </div>
+  </section>
+
+  <section id="albums">
+    <h2 class="title">MUSIC 🎵</h2>
+
+    <div class="albums">
+
+      <div class="album">
+        <h3>2 COOL 4 SKOOL</h3>
+        <p>The beginning of BTS's journey.</p>
+      </div>
+
+      <div class="album">
+        <h3>THE MOST BEAUTIFUL MOMENT IN LIFE</h3>
+        <p>A defining chapter in their musical story.</p>
+      </div>
+
+      <div class="album">
+        <h3>LOVE YOURSELF</h3>
+        <p>A message about love, identity and self-discovery.</p>
+      </div>
+
+      <div class="album">
+        <h3>MAP OF THE SOUL</h3>
+        <p>An exploration of identity and the human psyche.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="army" id="army">
+    <h2>💜 I PURPLE YOU 💜</h2>
+
+    <p>
+      BTS and ARMY — a connection built through music,
+      memories and countless moments together.
+    </p>
+  </section>
+
+  <footer>
+    <p>Fan-made BTS ARIRANG website 💜</p>
+    <p>Made with love by an ARMY.</p>
+  </footer>
+
+</body>
+</html>
